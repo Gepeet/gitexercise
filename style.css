@@ -9,3 +9,11 @@ body{
     color:aliceblue;
     font-weight: bold;
 }
+
+button{
+
+    padding: 20px 30px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
