@@ -26,6 +26,12 @@ button{
     background-color: blue;
     border: none;
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(91, 91, 231);
 }
 
 .card{
