@@ -10,10 +10,20 @@ body{
     font-weight: bold;
 }
 
-button{
-
-    padding: 20px 30px;
+.hero{
+    color: blue;
     background-color: aquamarine;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+button{
+    margin:30px 0;
+    padding: 20px 30px;
+    background-color: blue;
     border: none;
     border-radius: 5px;
 }
