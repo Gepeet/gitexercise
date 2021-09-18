@@ -21,18 +21,20 @@ button{
 .card{
     width: 100%;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
     padding: 10% 10%;
 }
 
 .card__item{
+    padding: 10px 10px;
+    height: 300px;
     display:flex;
     flex-direction:column;
     justify-content:space-around;
     align-items:center;
     border:none;
-    border-raduis: 5px;
+    border-radius: 5px;
     background-color:gray;
 }
     
