@@ -17,3 +17,22 @@ button{
     border: none;
     border-radius: 5px;
 }
+
+.card{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10% 10%;
+}
+
+.card__item{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    border:none;
+    border-raduis: 5px;
+    background-color:gray;
+}
+    
