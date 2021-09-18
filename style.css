@@ -55,3 +55,13 @@ button:hover{
     color:red;
 }
     
+.list{
+    height: 500px;
+    color: black;
+    justify-content: center;
+    background-color: cornsilk;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
