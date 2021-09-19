@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Git Excercise</title>
+    <script src="index.js"></script>
 </head>
 <body>
     <nav>
@@ -21,12 +22,23 @@
             <button class="login">Log In</button>
             <button class="signup">Sign-Up</button>
         </div>
-        <div class="nav__menu">
+        <div onclick="show()" class="nav__menu">
             <span></span>
             <span></span>
             <span></span>
         </div>
     </nav>
+    <div id="navLink" name="navLink" class="nav__link">
+        <div id="navLinkMenu" class="nav__link__menu">
+            <ul>
+                <li>About</li>
+                <li>Work</li>
+                <li>Contact</li>
+                <li>Log In</li>
+                <li>Sign Up</li>
+            </ul>
+        </div>
+    </div>
     <div class="hero">
         <h1>Sample git push,pull etc</h1>
         <p>paragraph additional lang po!!!</p>
