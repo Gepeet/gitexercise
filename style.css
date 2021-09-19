@@ -1,4 +1,5 @@
 * {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,6 +9,62 @@ body{
     background-color: white;
     color:black;
     font-weight: bold;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.links >ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul > *{
+    font-weight: 600;
+    margin: 0 20px;
+    color:rgb(91, 91, 231)
+
+}
+
+
+.links ul >li:hover{
+    
+    cursor: pointer;
+    color: rgb(51, 51, 192);
+}
+
+.log > button{
+    margin: 5 5px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.log > button:hover{
+    cursor: pointer;
+}
+
+.log > .login{
+    background-color: white;
+    color: black;
+}
+.log > .login:hover{
+    background-color: rgb(167, 161, 161);
+}
+
+.log > .signup{
+    color:white;
+}
+
+.log > .signup:hover{
+    background-color: rgb(153, 153, 185);
 }
 
 .hero{
@@ -68,3 +125,4 @@ button:hover{
     flex-direction: column;
     align-items: center;
 }
+
