@@ -19,6 +19,8 @@ nav{
     background-color: antiquewhite;
 }
 
+
+
 .links >ul{
     list-style: none;
     display: flex;
@@ -56,7 +58,7 @@ nav{
     color: black;
 }
 .log > .login:hover{
-    background-color: rgb(167, 161, 161);
+    background-color: rgba(167, 161, 161, 0.493);
 }
 
 .log > .signup{
@@ -64,8 +66,54 @@ nav{
 }
 
 .log > .signup:hover{
-    background-color: rgb(153, 153, 185);
+    background-color: rgba(153, 153, 185, 0.548);
 }
+
+.nav__menu {
+    
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 4px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgba(164, 164, 224, 0.322);
+}
+
+.nav__menu:hover{
+    cursor: pointer;
+    background-color: rgb(132, 132, 218);
+}
+
+.nav__menu > *{
+    display: block;
+    margin: 3px 0;
+    height: 2px;
+    width: 30px;
+    background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+
+    .nav__menu{
+        display: flex;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .links{
+        display: none;
+    }
+
+    .log{
+        display: none;
+    }
+    
+}
+
+
+/* HERO SECTION */
 
 .hero{
     color: black;
